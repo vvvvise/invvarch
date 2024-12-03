@@ -1,0 +1,4 @@
+BUILD_ENV="clstg"
+NODE_ENV="clstg"
+APP_ENV="clstg"
+BASE_URL="http://localhost:3000"
