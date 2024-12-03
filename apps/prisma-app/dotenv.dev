@@ -1,0 +1,5 @@
+BUILD_ENV="dev"
+NODE_ENV="dev"
+APP_ENV="dev"
+BASE_URL="http://localhost:3000"
+

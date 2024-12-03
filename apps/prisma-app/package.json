@@ -1,0 +1,18 @@
+{
+  "name": "@repo/lego-prisma-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:init": "prisma init --datasource-provider sqlite"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prisma": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.2"
+  },
+  "type": "module"
+}

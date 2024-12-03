@@ -1,0 +1,9 @@
+{
+  "extends": "../../packages/typescript-config/base.json",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "paths": {
+      "@repo/*": ["./*"]
+    }                               /* Skip type checking all .d.ts files. */
+  }
+}
