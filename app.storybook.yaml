@@ -1,0 +1,6 @@
+runtime: nodejs23
+service: storybook
+env_variables:
+  NODE_ENV: production
+instance_class: F1
+entrypoint: node packages/storybook-server/lib/index.js
