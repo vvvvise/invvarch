@@ -2,7 +2,7 @@
 
 This design paradigm leverages Next.js, Prisma, and GraphQL to automate model and interface generation while centralizing communication between clients and the edge. It simplifies software development, ensures unified error management across packages, reduces development time, and optimizes resource usage for efficient and streamlined operations.
 
-This Product is **ProtoTypes** of [VVVVISE/LEGOJS](https://github.com/VVVVISE/legojs).
+This Product is **ProtoTypes** of **[INVARCH](https://github.com/VVVVISE/invarch)**.
 
 ### NOW UNDER WIP - alpha or less
 
@@ -10,15 +10,14 @@ This Product is **ProtoTypes** of [VVVVISE/LEGOJS](https://github.com/VVVVISE/le
 
 ## CoreMiddlewares:
 
-- Turborepo
-  - [vercel/turborepo](https://github.com/vercel/turborepo)
+- [vercel/turborepo](https://github.com/vercel/turborepo)
   - [Documentation](https://turbo.build/repo/docs)
-  - Made by Vercel
-  - Inclued Nextjs
-- Node.js v3.3.0
+- [nodejs/node](https://github.com/nodejs/node) > v22.11.0
   - [API Documentation](https://nodejs.org/docs/latest/api/)
-- Yarn v4.4.1
-  - [yarnpkg/berry](https://github.com/yarnpkg/berry)
+- [yarnpkg/berry](https://github.com/yarnpkg/berry)
+  - [Documentation](https://yarnpkg.com/getting-started)
+  - [CLI](https://yarnpkg.com/cli)
+  - [API](https://yarnpkg.com/api)
  
 ---
 
@@ -27,6 +26,8 @@ This Product is **ProtoTypes** of [VVVVISE/LEGOJS](https://github.com/VVVVISE/le
 - [Usages](#Usages)
 
 * [Clouds](#Clouds)
+* [Server](#server)
+* [Logging](#logging)
 * [DB](#DB)
 * [Schemes](#Schemes)
 
@@ -96,12 +97,26 @@ $ yarn web dev
     - GCP
     - Azure
 
-### Serverless-Middleware
-  - [appwrite](https://github.com/appwrite/appwrite)
-    - SubmoduleRepo: _WIP_
-  - [SupaBase](https://github.com/supabase/supabase) is also under consideration
+## Server:
+Now Under consideration (for)
 
-### ClientLogService
+### A. Scratch with FW
+#### FW Plans
+  - Typescript + Express + Nginx + CDN
+  - Go ways
+  - Kotlin ways
+
+### B. Serverless-Middleware
+  - [appwrite](https://github.com/appwrite/appwrite)
+  - [SupaBase](https://github.com/supabase/supabase)
+  - [Nhost](https://nhost.io/)
+
+## Logging:
+
+### ObservabilityService
+  - Datadog
+
+### ClientLogHost
   - [Sentry](https://sentry.io/)
 
 ## DB:
