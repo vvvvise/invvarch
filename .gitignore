@@ -19,6 +19,7 @@ node_modules
 
 # yarn v4 (berry)
 .yarn/cach
+.yarn/install-stage.gz
 
 # turbo generated files
 .turbo
