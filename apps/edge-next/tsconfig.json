@@ -1,0 +1,23 @@
+{
+  "extends": "../../packages/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@repo/*": ["./*"]
+    },
+    "types": ["@testing-library/jest-dom"]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "graphql/generated/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

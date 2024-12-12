@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "next/core-web-vitals",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "import/order": ["error"]
+  }
+}
