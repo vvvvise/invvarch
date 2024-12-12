@@ -69,8 +69,9 @@ migrate:
 
 ## this short hand
 prisma:
-	@yarn prisma-app prisma generate
-	@yarn prisma-app prisma studio
+	@yarn prisma-app prisma:generate
+	@yarn prisma-app prisma:migrate
+	@yarn prisma-app prisma:studio
 	@echo '💬 [PRISMA] generated apps/prisma-app⚡️'
 
 # First time commands Seaquense
