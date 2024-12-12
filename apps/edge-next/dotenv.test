@@ -1,0 +1,13 @@
+#MD内部結合テスト用環境
+
+BUILD_ENV='test'
+NODE_ENV='production'
+APP_ENV='production'
+VUE_CLI_API_MODE='production'
+
+VITE_USER_NODE_ENV='test'
+BASE_URL='/'
+DEV=false
+PROD=true
+
+NEXT_PUBLIC_API_URL=https://localhost:8443

@@ -1,0 +1,11 @@
+BUILD_ENV='development'
+NODE_ENV='development'
+APP_ENV='development'
+VUE_CLI_API_MODE='development'
+
+VITE_USER_NODE_ENV='development'
+BASE_URL='/'
+DEV=true
+PROD=false
+
+NEXT_PUBLIC_API_URL=https://localhost:8443
