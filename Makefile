@@ -17,7 +17,7 @@ init:
 	@yarn unlink && yarn link && yarn
 	@echo '💬 [APP] Workpaces Initialized ✨'
 
- # Debian 11+ / Ubuntu 22.04+
+# Debian 11+ / Ubuntu 22.04+
 doppler-apt:
 	@sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
 	@curl -sLf --retry 3 --tlsv1.2 --proto "=https" 'https://packages.doppler.com/public/cli/gpg.DE2A7741A397C129.key' | sudo gpg --dearmor -o /usr/share/keyrings/doppler-archive-keyring.gpg
