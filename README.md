@@ -201,9 +201,9 @@ Now Under consideration (for)
     - component-test
     - e2e-test
 8. invvarch-ui
-      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/invvarch-ui):
+      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/ui):
         - Basic Package
-      - **[OOUI](https://github.com/vvvvise/ooui)**:
+      - **[ooui](https://github.com/vvvvise/ooui)**:
         - Payed Subscription Package
           - _**Object-Oriented Fully UI Suites** - that fully abstract the components of browser applications_
           - _The beta version is currently in the development stage_
