@@ -1,4 +1,4 @@
-# @VVVVISE/prisma-app
+# @vvvvise/prisma-app
 
 ## Usage
 ```sh

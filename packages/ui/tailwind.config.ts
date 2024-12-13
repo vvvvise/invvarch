@@ -8,7 +8,7 @@ const config = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "../../packages/lego-ui/**/*.{ts,tsx}",
+    "../../packages/invvarch-ui/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {

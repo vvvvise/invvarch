@@ -7,7 +7,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@repo/lego-ui/*": ["./*"]
+      "@repo/invvarch-ui/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

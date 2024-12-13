@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  transpilePackages: ["@repo/lego-ui"],
+  transpilePackages: ["@repo/invvarch-ui"],
   experimental: {
     appDir: true,
   }

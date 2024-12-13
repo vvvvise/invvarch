@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
-import { cn } from "@repo/lego-ui/lib/utils";
+import { cn } from "@repo/invvarch-ui/lib/utils";
 import { ChevronRightIcon, DotsHorizontalIcon } from "@radix-ui/react-icons";
 
 const Breadcrumb = React.forwardRef<

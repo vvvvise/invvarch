@@ -1,6 +1,6 @@
 "use client";
 
-import { useToast } from "@repo/lego-ui/components/hooks/use-toast";
+import { useToast } from "@repo/invvarch-ui/components/hooks/use-toast";
 import {
   Toast,
   ToastClose,
@@ -8,7 +8,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@repo/lego-ui/components/ui/toast";
+} from "@repo/invvarch-ui/components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();
