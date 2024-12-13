@@ -3,8 +3,8 @@
 import * as React from "react";
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
 
-import { cn } from "@repo/lego-ui/lib/utils";
-import { buttonVariants } from "@repo/lego-ui/components/ui/button";
+import { cn } from "@repo/invvarch-ui/lib/utils";
+import { buttonVariants } from "@repo/invvarch-ui/components/ui/button";
 
 const AlertDialog = AlertDialogPrimitive.Root;
 

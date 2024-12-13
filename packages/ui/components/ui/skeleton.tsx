@@ -1,4 +1,4 @@
-import { cn } from "@repo/lego-ui/lib/utils";
+import { cn } from "@repo/invvarch-ui/lib/utils";
 
 function Skeleton({
   className,

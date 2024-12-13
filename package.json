@@ -1,15 +1,15 @@
 {
-  "name": "@vvvvise/lego",
+  "name": "@vvvvise/invvarch",
   "description": "This paradigm streamlines development with schema-driven monorepo setups, generating GraphQL-based models, interfaces, and APIs. It integrates design, style, and development for efficiency, secure communication, and enhanced error management.",
   "version": "alpha-1.0.0",
   "author": "Susumu Fujii <powermac.g7@gmail.com>",
   "private": true,
   "dependencies": {
-    "@repo/lego-api-client": "workspace:*",
-    "@repo/lego-prisma-app": "workspace:*",
-    "@repo/lego-typescript-config": "workspace:*",
-    "@repo/lego-ui": "workspace:*",
-    "@repo/lego-web": "workpace:*"
+    "@repo/invvarch-api-client": "workspace:*",
+    "@repo/invvarch-prisma-app": "workspace:*",
+    "@repo/invvarch-typescript-config": "workspace:*",
+    "@repo/invvarch-ui": "workspace:*",
+    "@repo/invvarch-web": "workpace:*"
   },
   "devDependencies": {
     "@ardatan/relay-compiler": "^12.0.0",
@@ -41,16 +41,16 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
-    "api-client": "yarn workspace @repo/lego-api-client",
+    "api-client": "yarn workspace @repo/invvarch-api-client",
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "turbo lint -- --fix",
     "lint": "turbo lint",
     "prepare": "husky install",
-    "prisma-app": "yarn workspace @repo/lego-prisma-app",
+    "prisma-app": "yarn workspace @repo/invvarch-prisma-app",
     "pritty": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui": "yarn workspace @repo/lego-ui",
-    "web": "yarn workspace @repo/lego-web"
+    "ui": "yarn workspace @repo/invvarch-ui",
+    "web": "yarn workspace @repo/invvarch-web"
   },
   "workspaces": [
     "apps/*",

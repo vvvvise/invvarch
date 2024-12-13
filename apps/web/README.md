@@ -1,4 +1,4 @@
-# @VVVVISE/lego-web
+# @vvvvise/invvarch-web
 
 ## Usage
 ```sh

@@ -4178,9 +4178,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@repo/lego-api-client@workspace:*, @repo/lego-api-client@workspace:apps/api-client":
+"@repo/invvarch-api-client@workspace:*, @repo/invvarch-api-client@workspace:apps/api-client":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-api-client@workspace:apps/api-client"
+  resolution: "@repo/invvarch-api-client@workspace:apps/api-client"
   dependencies:
     "@graphql-codegen/cli": "npm:5.0.3"
     "@prisma/client": "npm:^6.0.1"
@@ -4195,9 +4195,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/lego-prisma-app@workspace:*, @repo/lego-prisma-app@workspace:apps/prisma-app":
+"@repo/invvarch-prisma-app@workspace:*, @repo/invvarch-prisma-app@workspace:apps/prisma-app":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-prisma-app@workspace:apps/prisma-app"
+  resolution: "@repo/invvarch-prisma-app@workspace:apps/prisma-app"
   dependencies:
     "@prisma/client": "npm:^6.0.1"
     "@prisma/engines": "npm:^6.0.1"
@@ -4220,23 +4220,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/lego-tests@workspace:packages/tests":
+"@repo/invvarch-tests@workspace:packages/tests":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-tests@workspace:packages/tests"
+  resolution: "@repo/invvarch-tests@workspace:packages/tests"
   dependencies:
     typescript: "npm:^5.7.2"
   languageName: unknown
   linkType: soft
 
-"@repo/lego-typescript-config@workspace:*, @repo/lego-typescript-config@workspace:packages/typescript-config":
+"@repo/invvarch-typescript-config@workspace:*, @repo/invvarch-typescript-config@workspace:packages/typescript-config":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-typescript-config@workspace:packages/typescript-config"
+  resolution: "@repo/invvarch-typescript-config@workspace:packages/typescript-config"
   languageName: unknown
   linkType: soft
 
-"@repo/lego-ui@workspace:*, @repo/lego-ui@workspace:packages/ui":
+"@repo/invvarch-ui@workspace:*, @repo/invvarch-ui@workspace:packages/ui":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-ui@workspace:packages/ui"
+  resolution: "@repo/invvarch-ui@workspace:packages/ui"
   dependencies:
     "@hookform/resolvers": "npm:^3.9.1"
     "@radix-ui/react-accordion": "npm:^1.2.1"
@@ -4297,12 +4297,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/lego-web@workpace:*, @repo/lego-web@workspace:apps/web":
+"@repo/invvarch-web@workpace:*, @repo/invvarch-web@workspace:apps/web":
   version: 0.0.0-use.local
-  resolution: "@repo/lego-web@workspace:apps/web"
+  resolution: "@repo/invvarch-web@workspace:apps/web"
   dependencies:
-    "@repo/lego-typescript-config": "workspace:*"
-    "@repo/lego-ui": "workspace:*"
+    "@repo/invvarch-typescript-config": "workspace:*"
+    "@repo/invvarch-ui": "workspace:*"
     "@sentry/nextjs": "npm:^8.44.0"
     "@types/react": "npm:^19.0.1"
     "@types/react-dom": "npm:^19.0.2"
@@ -5581,17 +5581,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vvvvise/lego@workspace:.":
+"@vvvvise/invvarch@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@vvvvise/lego@workspace:."
+  resolution: "@vvvvise/invvarch@workspace:."
   dependencies:
     "@ardatan/relay-compiler": "npm:^12.0.0"
     "@babel/core": "npm:^7.26.0"
-    "@repo/lego-api-client": "workspace:*"
-    "@repo/lego-prisma-app": "workspace:*"
-    "@repo/lego-typescript-config": "workspace:*"
-    "@repo/lego-ui": "workspace:*"
-    "@repo/lego-web": "workpace:*"
+    "@repo/invvarch-api-client": "workspace:*"
+    "@repo/invvarch-prisma-app": "workspace:*"
+    "@repo/invvarch-typescript-config": "workspace:*"
+    "@repo/invvarch-ui": "workspace:*"
+    "@repo/invvarch-web": "workpace:*"
     "@types/node": "npm:^22.10.2"
     "@yarnpkg/sdks": "npm:^3.2.0"
     fixpack: "npm:^4.0.0"

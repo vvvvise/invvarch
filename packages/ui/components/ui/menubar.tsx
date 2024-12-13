@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import * as MenubarPrimitive from "@radix-ui/react-menubar";
-import { cn } from "@repo/lego-ui/lib/utils";
+import { cn } from "@repo/invvarch-ui/lib/utils";
 import {
   CheckIcon,
   ChevronRightIcon,
