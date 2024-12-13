@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { OTPInput, OTPInputContext } from "input-otp";
-import { cn } from "@repo/lego-ui/lib/utils";
+import { cn } from "@repo/invvarch-ui/lib/utils";
 import { MinusIcon } from "@radix-ui/react-icons";
 
 const InputOTP = React.forwardRef<

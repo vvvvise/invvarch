@@ -1,16 +1,16 @@
-# @VVVVISE/lego-api-client
+# @vvvvise/invvarch-api-client
 
 ## Usage
 
 ### generate code
 ```sh
 $ pwd
-~/Projects/lego/app/api-client
+~/Projects/invvarch/app/api-client
 $ yarn build
 
 # kick from WorkspacesRoot
 $ cd ../..
 $ pwd
-~/Projects/lego
+~/Projects/invvarch
 $ yarn api-client build
 ```

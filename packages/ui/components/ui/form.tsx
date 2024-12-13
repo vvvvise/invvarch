@@ -12,8 +12,8 @@ import {
   useFormContext,
 } from "react-hook-form";
 
-import { cn } from "@repo/lego-ui/lib/utils";
-import { Label } from "@repo/lego-ui/components/ui/label";
+import { cn } from "@repo/invvarch-ui/lib/utils";
+import { Label } from "@repo/invvarch-ui/components/ui/label";
 
 const Form = FormProvider;
 

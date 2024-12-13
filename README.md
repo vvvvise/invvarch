@@ -1,8 +1,34 @@
-# lego
+# INVVARCH
 
-This design paradigm leverages Next.js, Prisma, and GraphQL to automate model and interface generation while centralizing communication between clients and the edge. It simplifies software development, ensures unified error management across packages, reduces development time, and optimizes resource usage for efficient and streamlined operations.
+## Introducing:
 
-This Product is **ProtoTypes** of **[INVARCH](https://github.com/VVVVISE/invarch)**.
+#### [Introducing: Japanese version](./README_ja.md)
+
+### A Post-Structuralist Approach to Software Design
+
+After nearly 30 years as a software architect, I have synthesized my experience into a singular, comprehensive theory. This journey has been the most profound gift of my career and life.
+
+INVVARCH, a product currently in alpha development, is my attempt to apply **_[Post-structuralism through original research](./docs/concepts/ApplicationOfPoststructuralismToDesignTheoryThroughOriginalResearch.md)_** to software design. Inspired by biological motifs like RNA synthesis (PCR methods), this paradigm fundamentally redefines how software structure is conceived. Here, "structure" is not designed—it emerges from the design itself, evolving autonomously through differential absorption.
+
+At its core, this paradigm uses a meta-design schema as the foundation. From this schema, “structure” is mechanically generated, mirroring how DNA encodes and manifests life. Software modifications no longer require direct adjustments to entities. Instead, they are implemented through schema language changes, akin to editing genetic sequences.
+
+The system functions as a primitive organism, with:
+
+- A consistent schema space (the "DNA")
+- A database (the "organism")
+- A membrane covering the design's surface
+
+This ensures an interface that remains lightweight, adaptable, and responsive to user inputs, continually evolving in real-time. The result is a paradigm where "design is immune to unknown errors."
+
+In essence, INVVARCH represents a vision where software is both the plan and the design itself. Just as DNA gives rise to living organisms, structure emerges from the plan, harmonizing dynamically over time.
+
+I am the sole developer working on this open-source project. [If development proceeds without delays](https://github.com/VVVVISE/lego/milestones?direction=asc&sort=due_date&state=open), I anticipate a beta release by late 2025 and an alpha version by early 2027.
+
+## Get Involved:
+
+If you’re interested in joining the development, sponsoring the project, exploring partial integration into your business, or scheduling an in-depth discussion, I would love to hear from you. Let’s shape the future of software design together.
+
+---
 
 ### NOW UNDER WIP - alpha or less
 
@@ -10,18 +36,21 @@ This Product is **ProtoTypes** of **[INVARCH](https://github.com/VVVVISE/invarch
 
 ## CoreMiddlewares:
 
-- [vercel/turborepo](https://github.com/vercel/turborepo)
+#### [vercel/turborepo](https://github.com/vercel/turborepo)
   - [Documentation](https://turbo.build/repo/docs)
-- [nodejs/node](https://github.com/nodejs/node) > v22.11.0
+#### [nodejs/node > v22.11.0](https://github.com/nodejs/node)
   - [API Documentation](https://nodejs.org/docs/latest/api/)
-- [yarnpkg/berry](https://github.com/yarnpkg/berry)
+#### [yarnpkg/berry](https://github.com/yarnpkg/berry)
   - [Documentation](https://yarnpkg.com/getting-started)
   - [CLI](https://yarnpkg.com/cli)
   - [API](https://yarnpkg.com/api)
- 
+
 ---
 
 ## TABLE of CONTENTS
+
+* [Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design) 📎
+* [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
 
 - [Usages](#Usages)
 
@@ -34,10 +63,8 @@ This Product is **ProtoTypes** of **[INVARCH](https://github.com/VVVVISE/invarch
 - [Apps](#Apps)
 - [Packages](#Packages)
 
-* [WorkspacesDirective](#WorkspacesDirective)
-
-- [Author](#Author)
-- [Licence](#Licence)
+* [Author](#Author)
+* [Licence](#Licence)
 
 ---
 
@@ -65,7 +92,7 @@ $ make create
 ```sh
 $ yarn dev
 
-## Ref: if only boot `@repo/web` dev-server 
+## Ref: if only boot `@repo/web` dev-server
 $ yarn web dev
 
 ```
@@ -83,10 +110,10 @@ $ yarn web dev
 
 ## Clouds:
 
-### Environments-Handler
+### 1.Environments-Handler
   - [Doppler](https://www.doppler.com/)
 
-### Hosting Recommnendations
+### 2. Hosting Recommnendations
   - Asia-Pacific recommended (considering the weak JPYen)
     - [DigitalOcean](https://www.digitalocean.com/)
     - [SakuraInternet-Cloud](https://cloud.sakura.ad.jp/)
@@ -98,6 +125,7 @@ $ yarn web dev
     - Azure
 
 ## Server:
+
 Now Under consideration (for)
 
 ### A. Scratch with FW
@@ -113,19 +141,19 @@ Now Under consideration (for)
 
 ## Logging:
 
-### ObservabilityService
+### 1. ObservabilityService
   - Datadog
 
-### ClientLogHost
+### 2. ClientLogHost
   - [Sentry](https://sentry.io/)
 
 ## DB:
 
-- ORM
+### 1. ORM
   - [Prisma](https://github.com/prisma/prisma)
-- ClientSide
+### 2. ClientSide
   - [SQLite (node@22.7.0 native-API)](https://nodejs.org/docs/latest/api/sqlite.html)
-- ServerSide
+### 3. ServerSide
   - [appwrite/Databases](https://appwrite.io/docs/products/databases)
 
 ## Schemes:
@@ -135,47 +163,47 @@ Now Under consideration (for)
     - Generate Models for Client
     - Generate Models for EdgeFront
     - Generate Models for ServerlessAPI
-   
+
 ---
 
 ## Apps:
 
-1. [lego-api-client](https://github.com/VVVVISE/lego/tree/main/apps/api-client)
+1. [invvarch-api-client](https://github.com/vvvvise/invvarch/tree/main/apps/api-client)
     - ApiClients generates **Interfaces**, **Modules**, **Functions**, and **Hooks** from **GraphQL**.
-2. lego-edge
+2. invvarch-edge
     - _WIP_
     - PartialHydration with ServerComponent
     - Sockets to ServerlessAPI
-3. [lego-web](https://github.com/VVVVISE/lego/tree/main/apps/web)
+3. [invvarch-web](https://github.com/vvvvise/invvarch/tree/main/apps/web)
     - Client application itself
     - Components Suites
-      - [lego-ui](https://github.com/VVVVISE/lego/tree/main/packages/ui):
+      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/ui):
         - Basic Package
-      - **[OOUI](https://github.com/VVVVISE/ooui)**:
+      - **[OOUI](https://github.com/vvvvise/ooui)**:
         - Payed Subscription Package
           - _**Object-Oriented Fully UI Suites** - that fully abstract the components of browser applications_
           - _The beta version is currently in the development stage_
           - Not for public
             - We have plans for a _**Payed Subscription Service**_ in the near future.
-4. [lego-scheme-editor](https://github.com/VVVVISE/lego/tree/main/apps/prisma-app)
+4. [invvarch-scheme-editor](https://github.com/vvvvise/invvarch/tree/main/apps/prisma-app)
     - The package will be able to manipulate Prisma's DB schema from the GUI, but currently it is simply Prisma.
 
 ## Packages:
 
-1. lego-cli
-2. lego-assets
-3. lego-constants
-4. lego-figma-sync-server
-5. lego-storybook-server
-6. [lego-typescript-config](https://github.com/VVVVISE/lego/tree/main/packages/typescript-config)
-7. [lego-tests](https://github.com/VVVVISE/lego/tree/main/packages/tests)
+1. invvarch-cli
+2. invvarch-assets
+3. invvarch-constants
+4. invvarch-figma-sync-server
+5. invvarch-storybook-server
+6. [invvarch-typescript-config](https://github.com/vvvvise/invvarch/tree/main/packages/typescript-config)
+7. [invvarch-tests](https://github.com/vvvvise/invvarch/tree/main/packages/tests)
     - unit-test
     - component-test
     - e2e-test
-8. lego-ui
-      - [lego-ui](https://github.com/VVVVISE/lego-ui):
+8. invvarch-ui
+      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/invvarch-ui):
         - Basic Package
-      - **[OOUI](https://github.com/VVVVISE/ooui)**:
+      - **[OOUI](https://github.com/vvvvise/ooui)**:
         - Payed Subscription Package
           - _**Object-Oriented Fully UI Suites** - that fully abstract the components of browser applications_
           - _The beta version is currently in the development stage_
@@ -184,90 +212,8 @@ Now Under consideration (for)
 
 ---
 
-## WorkspacesDirective
-
-```shell
-.
-├── .changeset/
-├── .github/
-├── .husky/
-├── .storybook/
-├── .vscode/
-├── .yarn/
-├── apps
-│   ├── api-client/
-│   │   ├── dist/
-│   │   ├── main.ts
-│   │   ├── codegen.ts
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   ├── prisma-app/
-│   │   ├── prisma/
-│   │   │   └── scheme.prisma
-│   │   ├── dotenv.clstg
-│   │   ├── dotenv.dev
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   └── web/
-│       ├── node_modules/
-│       ├── public/
-│       ├── dotenv.clstg
-│       ├── dotenv.dev
-│       ├── next.config.ts
-│       ├── package.json
-│       └── tsconfig.json
-├── docs
-│   ├── exsamples
-│   ├── references
-│   ├── sdks
-│   ├── services
-│   ├── specs
-│   └── tutorials
-├── packages/
-│   ├── styles/
-│   ├── tests/
-│   │   ├── node_modules/
-│   │   ├── playwright/
-│   │   ├── vitest/
-│   │   └── package.json
-│   ├── typescript-config
-│   │   ├── base.json
-│   │   ├── nextjs.json
-│   │   ├── package.json
-│   │   └── react-liblary.json
-│   └── ui
-│       ├── node_modules/
-│       ├── components/
-│       ├── package.json
-│       └── tsconfig.json
-├── node_modules
-│   └── @repo
-│       ├── lego-api-client
-│       ├── lego-web
-│       ├── lego-assets
-│       ├── lego-cli
-│       ├── lego-constants
-│       ├── lego-scheme-editor
-│       ├── lego-storybook-server
-│       ├── lego-tests
-│       ├── lego-typescript-config
-│       ├── lego-ooui # submodules
-│       └── lego-clstg-* # submodules
-├── app.clstg.yaml
-├── app.dev.yaml
-├── app.storybook.yaml
-├── LISENCE
-├── Makefile
-├── package.json
-├── README.md
-├── turbo.json
-└── yarn.lock
-```
-
----
-
 ## Author:
-VVVVISE / **Susumu Fujii**: _Usually known as suji(i)_
+vvvvise / **Susumu Fujii**: _Usually known as suji(i)_
 
 ## License:
 

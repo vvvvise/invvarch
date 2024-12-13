@@ -11,7 +11,7 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@repo/lego-ui/components",
-    "utils": "@repo/lego-ui/lib/utils"
+    "components": "@repo/invvarch-ui/components",
+    "utils": "@repo/invvarch-ui/lib/utils"
   }
 }

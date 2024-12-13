@@ -1,9 +1,9 @@
 import * as React from "react";
-import { cn } from "@repo/lego-ui/lib/utils";
+import { cn } from "@repo/invvarch-ui/lib/utils";
 import {
   ButtonProps,
   buttonVariants,
-} from "@repo/lego-ui/components/ui/button";
+} from "@repo/invvarch-ui/components/ui/button";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
