@@ -74,19 +74,48 @@ If you’re interested in joining the development, sponsoring the project, explo
 
 ### First time Instration
 
+#### Setup Nodenv
+
+- Install [Nodenv](https://github.com/nodenv/nodenv)
+
+```sh
+# Install Nodejs & Set Version
+
+$ nodenv install 20.18.0
+$ nodenv rehash
+$ node -v
+v20.18.0
+```
+
 ```sh
 # Install Doppler-CLI
 
 ## Debian 11+ / Ubuntu 22.04+
 $ bash
+$ sudo apt update -y && sudo apt install make
 $ make doppler-apt
 
 ## MacOS
 $ bash
+$ brew install make
 $ make doppler-mac
 
-# Create Development-Workspace
+# Create Development-Workspaces
+## $ make workspace
+## $ make prisma
+## This Shot hand below (make workspace && make prisma)
 $ make create
+
+## Check Workspacecs
+$ yarn workspaces list
+➤ YN0000: .
+➤ YN0000: apps/schema-client
+➤ YN0000: apps/schema-editor
+➤ YN0000: apps/web
+➤ YN0000: packages/tests
+➤ YN0000: packages/typescript-config
+➤ YN0000: packages/ui
+➤ YN0000: Done in 0s 2ms
 ```
 
 ### Boot whole packages dev-server
@@ -96,7 +125,6 @@ $ yarn dev
 
 ## Ref: if only boot `@repo/web` dev-server
 $ yarn web dev
-
 ```
 
 ### Build whole packages
