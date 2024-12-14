@@ -24,7 +24,7 @@ doppler-apt:
 	@echo "deb [signed-by=/usr/share/keyrings/doppler-archive-keyring.gpg] https://packages.doppler.com/public/cli/deb/debian any-version main" | sudo tee /etc/apt/sources.list.d/doppler-cli.list
 	@sudo apt-get update && sudo apt-get install doppler
 	@alias doppler="/usr/bin/doppker"
-	@doppler login
+	@sudo doppler login
 	@echo '💬 [APP] Installed DopplerCLI ✨'
 
 # Mac
@@ -34,10 +34,9 @@ doppler-mac:
 	@echo '💬 [APP] Installed DopplerCLI ✨'
 
 setup:
-	@doppler setup
+	@sudo doppler setup
 	@cd apps/web && doppler secrets download --no-file --format env > .env
 	@cd apps/schema-editor && cp dotenv.dev .env
-	@yarn schema-editor prisma generate
 	@echo '💬 [APP] Finished Workspaces Setups ✨'
 
 env:
@@ -60,7 +59,7 @@ init-prisma:
 	@echo '💬 [PRISMA] Generated apps/schema-editor⚡️'
 
 generate:
-	@yarn schema-editor prisma:generate
+	@yarn schema-editor prisma:build
 	@echo '💬 [PRISMA] Generated apps/schema-editor⚡️'
 
 migrate:
