@@ -30,5 +30,5 @@ node_modules
 .turbo/daemon/*
 
 # dists
-apps/schema-client/dist
-apps/schema-editor/prisma/generated
+!apps/schema-client/dist
+!apps/schema-editor/prisma/generated

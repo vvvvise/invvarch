@@ -1,0 +1,71 @@
+import * as TypeGraphQL from "type-graphql";
+import * as GraphQLScalars from "graphql-scalars";
+import { Prisma } from "@prisma/client";
+import { DecimalJSScalar } from "../../scalars";
+import { CareerOrderByWithRelationInput } from "../inputs/CareerOrderByWithRelationInput";
+import { SortOrderInput } from "../inputs/SortOrderInput";
+import { UserOrderByWithRelationInput } from "../inputs/UserOrderByWithRelationInput";
+import { SortOrder } from "../../enums/SortOrder";
+
+@TypeGraphQL.InputType("ProjectInfoOrderByWithRelationInput", {})
+export class ProjectInfoOrderByWithRelationInput {
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  id?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  userId?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  title?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrderInput, {
+    nullable: true
+  })
+  url?: SortOrderInput | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  position?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  startDate?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrderInput, {
+    nullable: true
+  })
+  endDate?: SortOrderInput | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrderInput, {
+    nullable: true
+  })
+  productName?: SortOrderInput | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrderInput, {
+    nullable: true
+  })
+  summary?: SortOrderInput | undefined;
+
+  @TypeGraphQL.Field(_type => SortOrder, {
+    nullable: true
+  })
+  careerId?: "asc" | "desc" | undefined;
+
+  @TypeGraphQL.Field(_type => UserOrderByWithRelationInput, {
+    nullable: true
+  })
+  user?: UserOrderByWithRelationInput | undefined;
+
+  @TypeGraphQL.Field(_type => CareerOrderByWithRelationInput, {
+    nullable: true
+  })
+  career?: CareerOrderByWithRelationInput | undefined;
+}
