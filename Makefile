@@ -36,13 +36,13 @@ doppler-mac:
 setup:
 	@doppler setup
 	@cd apps/web && doppler secrets download --no-file --format env > .env
-	@cd apps/prisma-app && cp dotenv.dev .env
-	@yarn prisma-app prisma generate
+	@cd apps/schema-editor && cp dotenv.dev .env
+	@yarn schema-editor prisma generate
 	@echo '💬 [APP] Finished Workspaces Setups ✨'
 
 env:
 	@cd apps/web && doppler secrets download --no-file --format env > .env
-	@cd apps/prisma-app && cp dotenv.dev .env
+	@cd apps/schema-editor && cp dotenv.dev .env
 	@echo '💬 [APP] Generated Environments ✨'
 
 ## this short hand
@@ -56,23 +56,23 @@ workspace:
 # 2. BUILD
 # ---------
 init-prisma:
-	@yarn prisma-app prisma:init
-	@echo '💬 [PRISMA] Generated apps/prisma-app⚡️'
+	@yarn schema-editor prisma:init
+	@echo '💬 [PRISMA] Generated apps/schema-editor⚡️'
 
 generate:
-	@yarn prisma-app prisma:generate
-	@echo '💬 [PRISMA] Generated apps/prisma-app⚡️'
+	@yarn schema-editor prisma:generate
+	@echo '💬 [PRISMA] Generated apps/schema-editor⚡️'
 
 migrate:
-	@yarn prisma-app prisma:migrate
-	@echo '💬 [PRISMA] Migrated apps/prisma-app⚡️'
+	@yarn schema-editor prisma:migrate
+	@echo '💬 [PRISMA] Migrated apps/schema-editor⚡️'
 
 ## this short hand
 prisma:
-	@yarn prisma-app prisma:generate
-	@yarn prisma-app prisma:migrate
-	@yarn prisma-app prisma:studio
-	@echo '💬 [PRISMA] generated apps/prisma-app⚡️'
+	@yarn schema-editor prisma:generate
+	@yarn schema-editor prisma:migrate
+	@yarn schema-editor prisma:studio
+	@echo '💬 [PRISMA] generated apps/schema-editor⚡️'
 
 # First time commands Seaquense
 create:
