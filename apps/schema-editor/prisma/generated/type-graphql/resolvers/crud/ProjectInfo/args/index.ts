@@ -1,0 +1,15 @@
+export { AggregateProjectInfoArgs } from "./AggregateProjectInfoArgs";
+export { CreateManyAndReturnProjectInfoArgs } from "./CreateManyAndReturnProjectInfoArgs";
+export { CreateManyProjectInfoArgs } from "./CreateManyProjectInfoArgs";
+export { CreateOneProjectInfoArgs } from "./CreateOneProjectInfoArgs";
+export { DeleteManyProjectInfoArgs } from "./DeleteManyProjectInfoArgs";
+export { DeleteOneProjectInfoArgs } from "./DeleteOneProjectInfoArgs";
+export { FindFirstProjectInfoArgs } from "./FindFirstProjectInfoArgs";
+export { FindFirstProjectInfoOrThrowArgs } from "./FindFirstProjectInfoOrThrowArgs";
+export { FindManyProjectInfoArgs } from "./FindManyProjectInfoArgs";
+export { FindUniqueProjectInfoArgs } from "./FindUniqueProjectInfoArgs";
+export { FindUniqueProjectInfoOrThrowArgs } from "./FindUniqueProjectInfoOrThrowArgs";
+export { GroupByProjectInfoArgs } from "./GroupByProjectInfoArgs";
+export { UpdateManyProjectInfoArgs } from "./UpdateManyProjectInfoArgs";
+export { UpdateOneProjectInfoArgs } from "./UpdateOneProjectInfoArgs";
+export { UpsertOneProjectInfoArgs } from "./UpsertOneProjectInfoArgs";
