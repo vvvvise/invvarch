@@ -14,9 +14,11 @@ At its core, this paradigm uses a meta-design schema as the foundation. From thi
 
 The system functions as a primitive organism, with:
 
-- A consistent schema space (the "DNA")
-- A database (the "organism")
-- A membrane covering the design's surface
+```md
+* A consistent schema space (the "DNA")
+* A database (the "organism")
+* A membrane covering the design's surface (the "synaptic field")
+```
 
 This ensures an interface that remains lightweight, adaptable, and responsive to user inputs, continually evolving in real-time. The result is a paradigm where "design is immune to unknown errors."
 
@@ -172,7 +174,7 @@ Now Under consideration (for)
     - ApiClients generates **Interfaces**, **Modules**, **Functions**, and **Hooks** from **GraphQL**.
 2. invvarch-edge
     - _WIP_
-    - PartialHydration with ServerComponent
+    - [PartialHydration with ServerComponent](https://github.com/sujii/partial-hydration-with-server-components)
     - Sockets to ServerlessAPI
 3. [invvarch-web](https://github.com/vvvvise/invvarch/tree/main/apps/web)
     - Client application itself
@@ -201,9 +203,9 @@ Now Under consideration (for)
     - component-test
     - e2e-test
 8. invvarch-ui
-      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/invvarch-ui):
+      - [invvarch-ui](https://github.com/vvvvise/invvarch/tree/main/packages/ui):
         - Basic Package
-      - **[OOUI](https://github.com/vvvvise/ooui)**:
+      - **[ooui](https://github.com/vvvvise/ooui)**:
         - Payed Subscription Package
           - _**Object-Oriented Fully UI Suites** - that fully abstract the components of browser applications_
           - _The beta version is currently in the development stage_
