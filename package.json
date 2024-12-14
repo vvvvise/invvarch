@@ -5,11 +5,11 @@
   "author": "Susumu Fujii <powermac.g7@gmail.com>",
   "private": true,
   "dependencies": {
-    "@repo/invvarch-api-client": "workspace:*",
-    "@repo/invvarch-prisma-app": "workspace:*",
-    "@repo/invvarch-typescript-config": "workspace:*",
-    "@repo/invvarch-ui": "workspace:*",
-    "@repo/invvarch-web": "workpace:*"
+    "@vvvvise/invvarch-schema-client": "workspace:*",
+    "@vvvvise/invvarch-schema-editor": "workspace:*",
+    "@vvvvise/invvarch-typescript-config": "workspace:*",
+    "@vvvvise/invvarch-ui": "workspace:*",
+    "@vvvvise/invvarch-web": "workpace:*"
   },
   "devDependencies": {
     "@ardatan/relay-compiler": "^12.0.0",
@@ -41,16 +41,16 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
-    "api-client": "yarn workspace @repo/invvarch-api-client",
+    "schema-client": "yarn workspace @vvvvise/invvarch-schema-client",
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "turbo lint -- --fix",
     "lint": "turbo lint",
     "prepare": "husky install",
-    "prisma-app": "yarn workspace @repo/invvarch-prisma-app",
+    "schema-editor": "yarn workspace @vvvvise/invvarch-schema-editor",
     "pritty": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui": "yarn workspace @repo/invvarch-ui",
-    "web": "yarn workspace @repo/invvarch-web"
+    "ui": "yarn workspace @vvvvise/invvarch-ui",
+    "web": "yarn workspace @vvvvise/invvarch-web"
   },
   "workspaces": [
     "apps/*",

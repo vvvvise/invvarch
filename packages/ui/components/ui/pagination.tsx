@@ -1,9 +1,9 @@
 import * as React from "react";
-import { cn } from "@repo/invvarch-ui/lib/utils";
+import { cn } from "@vvvvise/invvarch-ui/lib/utils";
 import {
   ButtonProps,
   buttonVariants,
-} from "@repo/invvarch-ui/components/ui/button";
+} from "@vvvvise/invvarch-ui/components/ui/button";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,

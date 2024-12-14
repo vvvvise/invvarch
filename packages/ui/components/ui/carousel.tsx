@@ -4,8 +4,8 @@ import * as React from "react";
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react";
-import { cn } from "@repo/invvarch-ui/lib/utils";
-import { Button } from "@repo/invvarch-ui/components/ui/button";
+import { cn } from "@vvvvise/invvarch-ui/lib/utils";
+import { Button } from "@vvvvise/invvarch-ui/components/ui/button";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 
 type CarouselApi = UseEmblaCarouselType[1];
