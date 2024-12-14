@@ -1,3 +1,6 @@
+# Secrets
+.secrets
+
 # Logs
 logs
 *.log
@@ -19,7 +22,7 @@ node_modules
 
 # yarn v4 (berry)
 .yarn/cach
-.yarn/install-stage.gz
+.yarn/install-state.gz
 
 # turbo generated files
 .turbo/cache/*
@@ -27,5 +30,5 @@ node_modules
 .turbo/daemon/*
 
 # dists
-apps/api-client/dist
-apps/prisma-app/prisma/generated
+apps/schema-client/dist
+apps/schema-editor/prisma/generated

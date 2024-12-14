@@ -1,11 +1,11 @@
 {
-  "name": "@repo/invvarch-web",
+  "name": "@vvvvise/invvarch-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@repo/invvarch-typescript-config": "workspace:*",
-    "@repo/invvarch-ui": "workspace:*",
     "@sentry/nextjs": "^8.44.0",
+    "@vvvvise/invvarch-typescript-config": "workspace:*",
+    "@vvvvise/invvarch-ui": "workspace:*",
     "next": "15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

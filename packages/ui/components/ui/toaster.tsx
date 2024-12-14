@@ -1,6 +1,6 @@
 "use client";
 
-import { useToast } from "@repo/invvarch-ui/components/hooks/use-toast";
+import { useToast } from "@vvvvise/invvarch-ui/components/hooks/use-toast";
 import {
   Toast,
   ToastClose,
@@ -8,7 +8,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@repo/invvarch-ui/components/ui/toast";
+} from "@vvvvise/invvarch-ui/components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();

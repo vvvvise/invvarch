@@ -1,5 +1,5 @@
 {
-  "name": "@repo/invvarch-api-client",
+  "name": "@vvvvise/invvarch-schema-client",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.3",
-    "@prisma/client": "^6.0.1",
+    "@prisma/client": "^5.18.0",
     "@types/punycode": "^2.1.4",
     "graphql-fields": "^2.0.3",
     "graphql-scalars": "^1.24.0",
@@ -18,7 +18,7 @@
   },
   "lisence": "GPL-3.0 license",
   "scripts": {
-    "api-client": "yarn workspace api-client",
+    "schema-client": "yarn workspace schema-client",
     "build": "graphql-codegen --config codegen.ts",
     "web": "yarn workspace web"
   },
