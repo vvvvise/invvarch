@@ -168,7 +168,7 @@ Now Under consideration (for)
 
 ## Apps:
 
-1. [invvarch-api-client](https://github.com/vvvvise/invvarch/tree/main/apps/api-client)
+1. [invvarch-schema-client](https://github.com/vvvvise/invvarch/tree/main/apps/schema-client)
     - ApiClients generates **Interfaces**, **Modules**, **Functions**, and **Hooks** from **GraphQL**.
 2. invvarch-edge
     - _WIP_
@@ -185,7 +185,7 @@ Now Under consideration (for)
           - _The beta version is currently in the development stage_
           - Not for public
             - We have plans for a _**Payed Subscription Service**_ in the near future.
-4. [invvarch-scheme-editor](https://github.com/vvvvise/invvarch/tree/main/apps/prisma-app)
+4. [invvarch-scheme-editor](https://github.com/vvvvise/invvarch/tree/main/apps/schema-editor)
     - The package will be able to manipulate Prisma's DB schema from the GUI, but currently it is simply Prisma.
 
 ## Packages:

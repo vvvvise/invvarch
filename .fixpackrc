@@ -40,8 +40,8 @@
   "quiet": false,
   "files": [
     "package.json",
-    "apps/api-client/package.json",
-		"apps/prisma-app/package.json",
+    "apps/schema-client/package.json",
+		"apps/schema-editor/package.json",
 		"apps/web/package.json",
 		"packages/tests/package.json",
 		"packages/typescript-config/package.json",

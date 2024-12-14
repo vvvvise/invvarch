@@ -3,19 +3,19 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
-import { useIsMobile } from "@repo/invvarch-ui/components/hooks/use-mobile";
-import { cn } from "@repo/invvarch-ui/components/lib/utils";
-import { Button } from "@repo/invvarch-ui/components/ui/button";
-import { Input } from "@repo/invvarch-ui/components/ui/input";
-import { Separator } from "@repo/invvarch-ui/components/ui/separator";
-import { Sheet, SheetContent } from "@repo/invvarch-ui/components/ui/sheet";
-import { Skeleton } from "@repo/invvarch-ui/components/ui/skeleton";
+import { useIsMobile } from "@vvvvise/invvarch-ui/components/hooks/use-mobile";
+import { cn } from "@vvvvise/invvarch-ui/components/lib/utils";
+import { Button } from "@vvvvise/invvarch-ui/components/ui/button";
+import { Input } from "@vvvvise/invvarch-ui/components/ui/input";
+import { Separator } from "@vvvvise/invvarch-ui/components/ui/separator";
+import { Sheet, SheetContent } from "@vvvvise/invvarch-ui/components/ui/sheet";
+import { Skeleton } from "@vvvvise/invvarch-ui/components/ui/skeleton";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@repo/invvarch-ui/components/ui/tooltip";
+} from "@vvvvise/invvarch-ui/components/ui/tooltip";
 import { ViewVerticalIcon } from "@radix-ui/react-icons";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";

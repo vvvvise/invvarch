@@ -1,4 +1,4 @@
-import { Button } from "@repo/invvarch-ui/components/ui/Button";
+import { Button } from "@vvvvise/invvarch-ui/components/ui/Button";
 
 export default function Home() {
   return (
