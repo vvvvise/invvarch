@@ -32,3 +32,9 @@ node_modules
 # dists
 !apps/schema-client/dist
 !apps/schema-editor/prisma/generated
+
+# WIP
+apps/edge-next/*
+apps/edge-api/*
+!apps/edge-next/.gitkeep
+!apps/edge-api/.gitkeep

@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "graphql": "16.9.0",
+    "graphql": "16.10.0",
     "graphql-request": "7.1.2",
-    "graphql-yoga": "5.10.5"
+    "graphql-yoga": "5.10.6"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.3",
@@ -23,7 +23,7 @@
     "directory": "apps/schema-client"
   },
   "scripts": {
-    "build": "graphql-codegen --config codegen.ts",
+    "generate": "graphql-codegen --config codegen.ts",
     "schema-client": "yarn workspace schema-client",
     "web": "yarn workspace web"
   },
