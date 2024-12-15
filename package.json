@@ -14,6 +14,7 @@
   "devDependencies": {
     "@ardatan/relay-compiler": "^12.0.0",
     "@babel/core": "^7.26.0",
+    "@changesets/cli": "^2.27.10",
     "@types/node": "^22.10.2",
     "@types/vscode": "^1.96.0",
     "@yarnpkg/sdks": "^3.2.0",
@@ -43,15 +44,19 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvvvise/invvarch.git"
+  },
   "scripts": {
-    "schema-client": "yarn workspace @vvvvise/invvarch-schema-client",
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "turbo lint -- --fix",
     "lint": "turbo lint",
     "prepare": "husky install",
-    "schema-editor": "yarn workspace @vvvvise/invvarch-schema-editor",
     "pritty": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "schema-client": "yarn workspace @vvvvise/invvarch-schema-client",
+    "schema-editor": "yarn workspace @vvvvise/invvarch-schema-editor",
     "ui": "yarn workspace @vvvvise/invvarch-ui",
     "web": "yarn workspace @vvvvise/invvarch-web"
   },
