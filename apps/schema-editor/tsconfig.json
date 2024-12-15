@@ -6,8 +6,8 @@
       "@repo/*": ["./*"]
     }
   },
-  "include": ["prisma/generated/type-graphql/**/*.ts", "src/**/*.ts"],
-  "files": ["prisma/generated/type-graphql/**/*.ts", "src/**/*.ts"],
+  "include": ["./prisma/generated/type-graphql/**/*.ts", "src/**/*.ts"],
+  "files": ["./prisma/generated/type-graphql/**/*.ts", "src/**/*.ts"],
   "ts-node": {
     "esm": true,
     "experimentalSpecifierResolution": "node"

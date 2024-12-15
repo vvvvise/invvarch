@@ -1,0 +1,38 @@
+{
+  "name": "@vvvvise/invvarch-edge",
+  "version": "0.0.1",
+  "description": "ReacrServerComponents-Next-next with Go-GraphQL-API-Server",
+  "lisence": "GPL-3.0 license",
+  "packageManager": "yarn@4.5.3",
+  "author": {
+    "name": "Susumu Fujii",
+    "email": "powermac.g7@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvvvise/invvarch.git",
+    "directory": "apps/edge"
+  },
+  "scripts": {
+    "lint": "yarn lint:api && yarn lint:next",
+    "lint:api": "yarn workspace @vvvvise/innvarch-edge-api lint",
+    "lint:next": "yarn workspace @vvvvise/innvarch-edge-next lint",
+    "lintfix": "yarn lintfix:api && yarn lintfix:next",
+    "lintfix:api": "yarn workspace @vvvvise/innvarch-edge-api lint:fix",
+    "lintfix:next": "yarn workspace @vvvvise/innvarch-edge-next lint:fix",
+    "type-check": "yarn workspace @vvvvise/innvarch-edge-next type-check"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.27.10",
+    "@types/node": "^22.10.2",
+    "@types/vscode": "^1.96.0",
+    "cross-env": "^7.0.3",
+    "fixpack": "^4.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "npm-run-all": "^4.1.5",
+    "typescript": "5.7.2"
+  },
+  "private": true,
+  "type": "module"
+}
