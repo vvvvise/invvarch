@@ -17,9 +17,14 @@
     "typegraphql-prisma": "^0.28.0"
   },
   "lisence": "GPL-3.0 license",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvvvise/invvarch.git",
+    "directory": "apps/schema-client"
+  },
   "scripts": {
-    "schema-client": "yarn workspace schema-client",
     "build": "graphql-codegen --config codegen.ts",
+    "schema-client": "yarn workspace schema-client",
     "web": "yarn workspace web"
   },
   "type": "module"

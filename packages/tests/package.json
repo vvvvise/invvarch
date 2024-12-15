@@ -8,5 +8,10 @@
   "lisence": "GPL-3.0 license",
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvvvise/invvarch.git",
+    "directory": "packages/tests"
   }
 }
