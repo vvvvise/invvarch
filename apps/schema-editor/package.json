@@ -25,6 +25,11 @@
     "typescript-eslint": "^8.18.0",
     "vite": "^6.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvvvise/invvarch.git",
+    "directory": "apps/schema-editor"
+  },
   "scripts": {
     "build": "yarn generate",
     "cp": "cp -afvR ../../node_modules/@prisma/client/generator-build ./",
