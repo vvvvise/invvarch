@@ -51,7 +51,10 @@ If you’re interested in joining the development, sponsoring the project, explo
 
 ## TABLE of CONTENTS
 
-* [Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design) 📎
+- _**[Revised Explanation of the Schema-Driven Development Paradigm](https://github.com/vvvvise/invvarch/wiki)**_ 📎
+
+* _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
+* _**[The data flow and automation process: by Centered around the schema‐driven approach](https://github.com/vvvvise/invvarch/wiki/The-data-flow-and-automation-process-centered-around-the-schema%E2%80%90driven-approach)**_ 📎
 * [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
 
 - [Usages](#Usages)
