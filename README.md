@@ -8,7 +8,7 @@
 
 After nearly 30 years as a software architect, I have synthesized my experience into a singular, comprehensive theory. This journey has been the most profound gift of my career and life.
 
-INVVARCH, a product currently in alpha development, is my attempt to apply **_[Post-structuralism through original research](./docs/concepts/ApplicationOfPoststructuralismToDesignTheoryThroughOriginalResearch.md)_** to software design. Inspired by biological motifs like RNA synthesis (PCR methods), this paradigm fundamentally redefines how software structure is conceived. Here, "structure" is not designed—it emerges from the design itself, evolving autonomously through differential absorption.
+INVVARCH, a product currently in alpha development, is my attempt to apply **_[Post-structuralism through original research](./docs/en/concepts/ApplicationOfPoststructuralismToDesignTheoryThroughOriginalResearch.md)_** to software design. Inspired by biological motifs like RNA synthesis (PCR methods), this paradigm fundamentally redefines how software structure is conceived. Here, "structure" is not designed—it emerges from the design itself, evolving autonomously through differential absorption.
 
 At its core, this paradigm uses a meta-design schema as the foundation. From this schema, “structure” is mechanically generated, mirroring how DNA encodes and manifests life. Software modifications no longer require direct adjustments to entities. Instead, they are implemented through schema language changes, akin to editing genetic sequences.
 
@@ -54,6 +54,7 @@ If you’re interested in joining the development, sponsoring the project, explo
 - _**[Revised Explanation of the Schema-Driven Development Paradigm](https://github.com/vvvvise/invvarch/wiki)**_ 📎
 
 * _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
+* _**[Architecture-Details](./docs/en/architecture/tech.md)**_ 📎
 * _**[The data flow and automation process: by Centered around the schema‐driven approach](https://github.com/vvvvise/invvarch/wiki/The-data-flow-and-automation-process-centered-around-the-schema%E2%80%90driven-approach)**_ 📎
 * [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
 
