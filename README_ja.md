@@ -4,7 +4,7 @@
 
 ソフトウェア・アーキテクトとして30年近くを経た今、私はこれまでの経験を統合し、ひとつの包括的な理論にまとめあげた。この旅は、私のキャリアと人生において最も深い贈り物となった。
 
-現在アルファ版を開発中のINVVARCHは、[独自のポスト構造主義](./docs/concepts/ApplicationOfPoststructuralismToDesignTheoryThroughOriginalResearch_ja.md)の概念をソフトウェア設計に適用しようとする私の試みである。RNA合成（PCR法）のような生物学的モチーフにインスパイアされたこのパラダイムは、ソフトウェアの構造をどのように考えるかを根本的に再定義する。ここでは、「構造」は設計されたものではなく、設計そのものから生まれ、差分吸収によって自律的に進化するものである。
+現在アルファ版を開発中のINVVARCHは、[独自のポスト構造主義](./docs/ja/concepts/ApplicationOfPoststructuralismToDesignTheoryThroughOriginalResearch.md)の概念をソフトウェア設計に適用しようとする私の試みである。RNA合成（PCR法）のような生物学的モチーフにインスパイアされたこのパラダイムは、ソフトウェアの構造をどのように考えるかを根本的に再定義する。ここでは、「構造」は設計されたものではなく、設計そのものから生まれ、差分吸収によって自律的に進化するものである。
 
 このパラダイムの核心は、メタ・デザイン・スキーマを基礎としていることである。このスキーマから 「構造 」が機械的に生成され、DNAがどのように生命をコード化し、顕在化させるかが反映される。ソフトウェアの修正は、もはや実体を直接調整する必要はない。その代わりに、遺伝子配列の編集と同じように、スキーマ言語の変更によって実装される。
 
@@ -29,5 +29,6 @@
 - _**[スキーマ駆動開発の拡張パラダイム](https://github.com/vvvvise/invvarch/wiki/Revised-Explanation-of-the-Schema%E2%80%90Driven-Development-Paradigm-%5BJapanese%5D)**_ 📎
 
 * _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
+* _**[Architecture-Details](./docs/ja/architecture/tech.md)**_ 📎
 * _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/The-data-flow-and-automation-process-centered-around-the-schema%E2%80%90driven-approach-%5BJapanese%5D)**_ 📎
 * [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
