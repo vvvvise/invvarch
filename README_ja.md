@@ -21,3 +21,13 @@
 
 ## 参加する:
 開発への参加、プロジェクトのスポンサー、ビジネスへの部分的な統合の検討、詳細なディスカッションの予定など、ご興味のある方はぜひご連絡ください。ソフトウェア・デザインの未来を一緒に作っていきましょう。
+
+---
+
+## Technical-Design [Wiki]
+
+- _**[スキーマ駆動開発の拡張パラダイム](https://github.com/vvvvise/invvarch/wiki/Revised-Explanation-of-the-Schema%E2%80%90Driven-Development-Paradigm-%5BJapanese%5D)**_ 📎
+
+* _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
+* _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/The-data-flow-and-automation-process-centered-around-the-schema%E2%80%90driven-approach-%5BJapanese%5D)**_ 📎
+* [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
