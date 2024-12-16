@@ -26,9 +26,9 @@
 
 ## Technical-Design [Wiki]
 
-- _**[スキーマ駆動開発の拡張パラダイム](https://github.com/vvvvise/invvarch/wiki/Revised-Explanation-of-the-Schema%E2%80%90Driven-Development-Paradigm-%5BJapanese%5D)**_ 📎
+- _**[スキーマ駆動開発の拡張パラダイム](https://github.com/vvvvise/invvarch/wiki/ja:-HOME)**_ 📎
 
 * _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
 * _**[Architecture-Details](./docs/ja/architecture/tech.md)**_ 📎
-* _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/The-data-flow-and-automation-process-centered-around-the-schema%E2%80%90driven-approach-%5BJapanese%5D)**_ 📎
+* _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/ja:-The-data-flow-and-automation-process-centered-around-the-schema-driven-approach)**_ 📎
 * [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
