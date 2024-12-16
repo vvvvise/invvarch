@@ -30,5 +30,5 @@
 
 * _**[Technical-Design](https://github.com/vvvvise/invvarch/wiki/Technical-Design)**_ 📎
 * _**[INVVARCH 詳細設計ドキュメント](./docs/ja/architecture/tech.md)**_ 📎
-* _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/ja:-The-data-flow-and-automation-process-centered-around-the-schema-driven-approach)**_ 📎
+* _**[スキーマ駆動アプローチを中心としたデータフローと自動化プロセス](https://github.com/vvvvise/invvarch/wiki/ja:-The-data-flow-and-automation-process-centered-around-the-schema‐driven-approach)**_ 📎
 * [EffortEstimation](https://github.com/vvvvise/invvarch/wiki/Effort-Estimation) 📎
